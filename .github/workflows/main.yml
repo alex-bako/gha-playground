@@ -9,5 +9,4 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: echo $GITHUB_REF
+      - uses: ./.github/actions/gitversion

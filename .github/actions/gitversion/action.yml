@@ -1,0 +1,9 @@
+name: GitVersion
+
+jobs:
+  gitversion:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          echo $GITHUB_REF
