@@ -1,5 +1,10 @@
 name: GitVersion
 
+inputs:
+  ref:
+    required: true
+    description: Ref to checkout
+
 runs:
   using: composite
   steps:
