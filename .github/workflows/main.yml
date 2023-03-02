@@ -3,6 +3,7 @@ name: Example Workflow
 on:
   push:
     tags: ["*"]
+    branches: ["*"]
 
 jobs:
   test:
