@@ -2,6 +2,7 @@ name: Example Workflow
 
 on:
   push:
+    tags: ["*"]
 
 jobs:
   test:
