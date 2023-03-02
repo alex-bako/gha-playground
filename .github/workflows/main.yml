@@ -16,4 +16,4 @@ jobs:
 
       - uses: ./.github/actions/gitversion
         with:
-          ref: ${{ env.GITHUB_REF }}
+          ref: ${{ github.ref }}
