@@ -11,3 +11,4 @@ runs:
     - shell: bash
       run: |
         echo ${{inputs.ref}}
+        echo ${{ github.ref }}
