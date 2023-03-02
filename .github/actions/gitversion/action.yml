@@ -10,4 +10,4 @@ runs:
   steps:
     - shell: bash
       run: |
-        echo $GITHUB_REF
+        echo ${{inputs.ref}}
